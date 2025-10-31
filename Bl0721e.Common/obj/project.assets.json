@@ -4772,7 +4772,7 @@
     "/home/blockie/.nuget/packages/": {}
   },
   "project": {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "restore": {
       "projectUniqueName": "/home/blockie/Documents/openmod/locale/Bl0721e.Common/Bl0721e.Common.csproj",
       "projectName": "Bl0721e.Common",

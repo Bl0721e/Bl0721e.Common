@@ -46,7 +46,7 @@ namespace Bl0721e.Common.Commands
 			string locale = await m_UserDataStore.GetUserDataAsync<string>(Context.Actor.Id, KnownActorTypes.Player, "localePreference") ?? fallbackLocale;
 			if (Context.Parameters.Count == 0)
 			{
-				await Context.Actor.PrintMessageAsync(m_StringLocalizer[$"{locale}:locale:displayLocaleList", new { locale= string.Join(", ", locales) }]);
+				await Context.Actor.PrintMessageAsync(m_StringLocalizer[$"{locale}:locale:displayLocaleList", new { locales = string.Join(", ", locales) }]);
 			}
 			else
 			{
@@ -56,7 +56,7 @@ namespace Bl0721e.Common.Commands
 					throw new UserFriendlyException(m_StringLocalizer[$"{locale}:locale:localeNotAvailable"]);
 				}
 				await m_UserDataStore.SetUserDataAsync<string>(Context.Actor.Id, KnownActorTypes.Player, "localePreference", newLocale);
-				await Context.Actor.PrintMessageAsync(m_StringLocalizer[$"locale:{locale}:locale:localeUpdateSuccess", new { newLocale = newLocale }]);
+				await Context.Actor.PrintMessageAsync(m_StringLocalizer[$"{newLocale}:locale:localeUpdateSuccess", new { newLocale = newLocale }]);
 			}
 		}
 	}
