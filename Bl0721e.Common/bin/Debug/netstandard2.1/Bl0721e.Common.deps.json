@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "Bl0721e.Common/0.1.1": {
+      "Bl0721e.Common/1.0.0": {
         "dependencies": {
           "Legacy2CPSWorkaround": "1.0.0",
           "OpenMod.Unturned": "3.8.10"
@@ -1218,7 +1218,7 @@
     }
   },
   "libraries": {
-    "Bl0721e.Common/0.1.1": {
+    "Bl0721e.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

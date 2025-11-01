@@ -4772,13 +4772,13 @@
     "/home/blockie/.nuget/packages/": {}
   },
   "project": {
-    "version": "0.1.1",
+    "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/blockie/Documents/openmod/locale/Bl0721e.Common/Bl0721e.Common.csproj",
+      "projectUniqueName": "/home/blockie/Documents/openmod/common/Bl0721e.Common/Bl0721e.Common.csproj",
       "projectName": "Bl0721e.Common",
-      "projectPath": "/home/blockie/Documents/openmod/locale/Bl0721e.Common/Bl0721e.Common.csproj",
+      "projectPath": "/home/blockie/Documents/openmod/common/Bl0721e.Common/Bl0721e.Common.csproj",
       "packagesPath": "/home/blockie/.nuget/packages/",
-      "outputPath": "/home/blockie/Documents/openmod/locale/Bl0721e.Common/obj/",
+      "outputPath": "/home/blockie/Documents/openmod/common/Bl0721e.Common/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/blockie/.nuget/NuGet/NuGet.Config"

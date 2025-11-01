@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bzZNzDQ3W/CS+oqpiD/4ML5PeVjsG5SDOaTfgIMekcbI/6jVoMeJzmFfCDGIIJAQhcpTW/v0NcCEBb2gRdsPPg==",
+  "dgSpecHash": "Mofko01jH2856kpTQMbfCz4vsUsmzOZUQLuRJ9ufORxYCP71jZjFgDLtuD0s/p+FuDNHB3tBmfuCXQG3lskmZQ==",
   "success": true,
-  "projectFilePath": "/home/blockie/Documents/openmod/locale/Bl0721e.Common/Bl0721e.Common.csproj",
+  "projectFilePath": "/home/blockie/Documents/openmod/common/Bl0721e.Common/Bl0721e.Common.csproj",
   "expectedPackageFiles": [
     "/home/blockie/.nuget/packages/asmresolver/5.5.1/asmresolver.5.5.1.nupkg.sha512",
     "/home/blockie/.nuget/packages/asmresolver.pe/5.5.1/asmresolver.pe.5.5.1.nupkg.sha512",
